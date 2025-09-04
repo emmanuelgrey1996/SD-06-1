@@ -1,11 +1,11 @@
 function Mail(subj, msg) {
-    this.subject = subj
-    this.message = msg
+    this.subject = subj;
+    this.message = msg;
   }
   
   // Type your code below this line!
   
-  const newMail = new Mail(  )
+  const newMail = new Mail("hello", "world");
   
   // Type your code above this line!
   
